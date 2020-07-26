@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:pixelsize=15:antialias=true:autohint=true";
-static int borderpx = 6;
+static char *font = "Iosevka Custom:style=Regular:pixelsize=13:antialias=true:autohint=true";
+static int borderpx = 10;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -101,7 +101,7 @@ float alpha = 1.0;
 static const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#282828", /* black   */
+  [0] = "#1e252c", /* black   */
   [1] = "#d71a1a", /* red     */
   [2] = "#57ba37", /* green   */
   [3] = "#f0d50c", /* yellow  */
@@ -111,7 +111,7 @@ static const char *colorname[] = {
   [7] = "#dedede", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#666666", /* black   */
+  [8]  = "#1e252c", /* black   */
   [9]  = "#ff0000", /* red     */
   [10] = "#d8fa3b", /* green   */
   [11] = "#e7c547", /* yellow  */
@@ -121,7 +121,7 @@ static const char *colorname[] = {
   [15] = "#eeeeee", /* white   */
 
   /* special colors */
-  [256] = "#121212", /* background */
+  [256] = "#1A2026", /* background */
   [257] = "#d0d0d0", /* foreground */
 };
 
